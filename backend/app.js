@@ -12,7 +12,7 @@ mongoose.connect("mongodb+srv://raghav77g:periodictable22g@mern-expense.cq7mm1g.
 const corsOptions = {
     origin: 'http://localhost:5173',
 };
-
+//just for deployment
 app.use(cors(corsOptions));
 
 //middlewares
